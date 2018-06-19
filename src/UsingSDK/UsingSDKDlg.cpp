@@ -41,6 +41,7 @@ CUsingSDKDlg::CUsingSDKDlg(CWnd* pParent /*=NULL*/)
 	: CDialog(CUsingSDKDlg::IDD, pParent)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
+	m_bStarted = FALSE;
 }
 
 void CUsingSDKDlg::DoDataExchange(CDataExchange* pDX)
