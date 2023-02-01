@@ -1,6 +1,11 @@
 #ifndef _EFS_API_H_
 #define _EFS_API_H_
 
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+	
 #define  EFSAPI_SUCCESS                0
 #define  EFSAPI_OPEN_SRC_FILE          1
 #define  EFSAPI_OPEN_DEST_FILE         2
